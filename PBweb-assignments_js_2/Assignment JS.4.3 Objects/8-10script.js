@@ -4,18 +4,17 @@ var Rational10 = {
 
 
             if (selection == "1") {
-
-              a = Rational10.multiply();
-              return a
+                  a = Rational10.multiply();
+                  return a
             } else if (selection == "2") {
-              b = Rational10.division();
-              return b
+                  b = Rational10.division();
+                  return b
             } else if (selection == "3") {
-              c = Rational10.addition();
-              return c
+                  c = Rational10.addition();
+                  return c
             } else {
-              d = Rational10.subtraction();
-              return d
+                  d = Rational10.subtraction();
+                  return d
             }
       },
 
